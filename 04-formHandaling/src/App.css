@@ -1,0 +1,8 @@
+/* <div className="flex flex-col mt-8">
+        <h1 className="text-2xl font-semibold ">Form Details</h1>
+        <p className="flex flex-col">
+          <strong>Name: <span className="font-medium">{form.Name}</span></strong>
+          <strong>Email: <span className="font-medium">{form.Email}</span></strong>
+          <strong>Password: <span className="font-medium">{form.Password}</span></strong>
+        </p>
+      </div> */
