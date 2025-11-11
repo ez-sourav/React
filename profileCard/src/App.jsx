@@ -24,13 +24,18 @@ const App = () => {
       setShowCard(true)
     })
   }
+
+   function closeCard() {
+    setShowCard(false);
+  }
+
   return (
     <div className="bg-gray-800 flex flex-col p-5 h-screen">
       <button 
       className="py-3 px-5 text-2xl font-semibold bg-blue-500 text-white rounded mb-3 transform transition duration-300 active:scale-95 hover:cursor-pointer "
       onClick={getData}
       >Click to Get Data</button>
-      {showCard ? (<Card name={name} batch={batch} logo={logo} disc={disc}/>):null }
+      {showCard ? (<Card name={name} batch={batch} logo={logo} disc={disc} closeCard={closeCard}/>):null }
     </div>
     
     

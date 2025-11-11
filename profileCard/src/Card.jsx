@@ -1,7 +1,11 @@
-
-const Card = ({name,batch,disc,logo}) => {
+import { X } from 'lucide-react';
+const Card = ({name,batch,disc,logo,closeCard}) => {
+  
   return (
-    <main className="h-screen rounded-md bg-gray-700 flex justify-center items-center  ">
+    <main className="relative h-screen rounded-md bg-gray-700 flex justify-center items-center  ">
+      <div className="absolute top-0 right-0 mt-2 mr-5">
+        <button onClick={closeCard} className="text-4xl hover:cursor-pointer"><X /></button>
+      </div>
       <div className="bg-white w-1/3 p-5 rounded-md shadow-md  ">
         <div className="flex gap-5">
           <img
