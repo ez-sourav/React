@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function App() {
   const [name, setName] = useState("Hello");
-  console.log(name);
+  
   return (
     <>
       <div>
@@ -15,7 +15,7 @@ function App() {
         >
           Chnage Text
         </button>
-        
+          {console.log(name)}
       </div>
     </>
   );
