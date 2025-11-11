@@ -9,7 +9,7 @@ const App = () => {
         <div className="relative flex justify-between items-center py-4 px-6">
           <h1 className="text-2xl font-semibold text-white">SIT</h1>
 
-          {/* Center: fixed position */}
+          
           <div className="absolute left-1/2 transform -translate-x-1/2">
             <ul className="flex gap-5 text-white font-medium">
               <li>Home</li>
@@ -29,7 +29,7 @@ const App = () => {
         </div>
       </nav>
 
-      <Card/>
+      
     </>
   );
 };
