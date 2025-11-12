@@ -4,7 +4,8 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import InputData from './InputData.jsx'
-import { DashBoard } from './DashBoard.jsx'
+import DashBoard from './DashBoard.jsx'
+
 
 
 const router = createBrowserRouter([
